@@ -1,0 +1,11 @@
+plugin:
+    name: 'lerush.menu::lang.plugin.name'
+    description: 'lerush.menu::lang.plugin.description'
+    author: lerush
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: landing
+        url: /cms/themeoptions/update/rush%20royal
+        icon: icon-briefcase

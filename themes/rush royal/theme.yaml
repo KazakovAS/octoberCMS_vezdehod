@@ -1,0 +1,91 @@
+name: 'rush royal'
+description: 'My Theme Description'
+author: ''
+homepage: ''
+code: ''
+
+form:
+    tabs:
+        fields:
+            logo_text:
+                label: Компания
+                span: auto
+                comment: Введите название компании
+                tab: Основные
+
+            logo_image:
+                label: Логотип
+                type: mediafinder
+                mode: image
+                span: auto
+                tab: Основные
+
+            phone:
+                label: Телефон
+                span: auto
+                tab: Основные
+
+            address:
+                label: Адрес
+                span: auto
+                tab: Основные
+
+            social:
+                label: Социальные сети
+                comment: Социальные сети
+                type: repeater
+                span: auto
+                tab: Основные
+                form:
+                    fields:
+                        image:
+                            label: Логотип социальной сети
+                            type: mediafinder
+                            mode: image
+                            span: auto
+                            imageWidth: 100
+                        link:
+                            label: Ссылка на страницу
+                            span: auto
+
+            share:
+                label: Шеринг в соц. сетях
+                comment: Ссылки на соц. сети компании
+                type: repeater
+                span: auto
+                tab: Основные
+                form:
+                    fields:
+                        image:
+                            label: Логотип социальной сети
+                            type: mediafinder
+                            mode: image
+                            span: auto
+                            imageWidth: 100
+                        link:
+                            label: Ссылка на страницу
+                            span: auto
+
+            landing_1_title:
+                label: title страницы
+                tab: Лендинг "Вездеход"
+
+            landing_1_description:
+                label: description страницы
+                tab: Лендинг "Вездеход"
+
+            landing_1_slider:
+                label: Слайдер
+                tab: Лендинг "Вездеход"
+                type: repeater
+                form:
+                    fields:
+                        image:
+                            label: Изображение
+                            type: mediafinder
+                            mode: image
+                        header:
+                            label: Заголовок
+                        description:
+                            label: Описание
+                            type: textarea

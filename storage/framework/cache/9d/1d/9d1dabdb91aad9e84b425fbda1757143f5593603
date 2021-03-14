@@ -1,0 +1,15 @@
+1615665202a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:225:"	<script src="{{ 'assets/js/theme.min.js' | theme }}"></script>
+	{# Uncomment to view plugins assets for concatenation in app.js scripts & preprocessor styles
+	{% framework extras %}
+	{% scripts %}
+	#}
+
+</body>
+</html>";s:5:"mtime";i:1615555100;s:6:"markup";s:224:"<script src="{{ 'assets/js/theme.min.js' | theme }}"></script>
+	{# Uncomment to view plugins assets for concatenation in app.js scripts & preprocessor styles
+	{% framework extras %}
+	{% scripts %}
+	#}
+
+</body>
+</html>";s:4:"code";N;}}

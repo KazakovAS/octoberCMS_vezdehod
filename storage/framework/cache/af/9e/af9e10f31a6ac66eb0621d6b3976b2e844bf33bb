@@ -1,0 +1,28 @@
+1615665202a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:585:"[genericForm sliderForm]
+group = "Форма слайдера"
+messages_success = "Ваша форма была успешно отправлена!"
+messages_errors = "В вашей заявке содержатся ошибки."
+reset_form = 1
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "Y-m-d"
+==
+{% partial 'global/header' %}
+
+<div id="cursor"></div>
+
+{% partial 'home-header' %}
+{% partial 'modal' %}
+
+{% partial 'footer' %}";s:5:"mtime";i:1615663891;s:6:"markup";s:136:"{% partial 'global/header' %}
+
+<div id="cursor"></div>
+
+{% partial 'home-header' %}
+{% partial 'modal' %}
+
+{% partial 'footer' %}";s:4:"code";N;s:22:"genericForm sliderForm";a:11:{s:5:"group";s:27:"Форма слайдера";s:16:"messages_success";s:65:"Ваша форма была успешно отправлена!";s:15:"messages_errors";s:61:"В вашей заявке содержатся ошибки.";s:10:"reset_form";s:1:"1";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}}}
